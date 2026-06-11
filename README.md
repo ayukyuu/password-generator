@@ -7,6 +7,8 @@
 
 A clean, minimal password generator built with vanilla HTML, CSS and JavaScript — no frameworks, no dependencies, just handwritten code.
 
+> 🌐 **[Try it live → ayukyuu.github.io/password-generator](https://ayukyuu.github.io/password-generator/)**
+
 ## ✨ Features
 
 - Generates two random 16-character passwords at once
