@@ -76,3 +76,8 @@ hr {
     margin-bottom: 0;
     color: #ece2d2;
 }
+
+#visibility-hint {
+    color: white;
+    display: none;
+}

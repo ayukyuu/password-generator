@@ -9,6 +9,11 @@ let length = 16;
 let firstPassword = "";
 let secondPassword = "";
 
+if (window.innerWidth < 500) {
+    document.getElementById("main-container").style.display = "none";
+    document.getElementById("visibility-hint").style.display = "block";
+}
+
 button.addEventListener("click", () => {
     firstPassword = generatePassword();
     secondPassword = generatePassword();
