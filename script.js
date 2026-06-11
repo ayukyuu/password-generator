@@ -6,8 +6,6 @@ const chars =
         "",
     );
 let length = 16;
-let firstPassword = "";
-let secondPassword = "";
 
 if (window.innerWidth < 500) {
     document.getElementById("main-container").style.display = "none";
@@ -15,10 +13,8 @@ if (window.innerWidth < 500) {
 }
 
 button.addEventListener("click", () => {
-    firstPassword = generatePassword();
-    secondPassword = generatePassword();
-    firstPassElement.textContent = firstPassword;
-    secondPassElement.textContent = secondPassword;
+    firstPassElement.textContent = generatePassword();
+    secondPassElement.textContent = generatePassword();
 });
 
 function generatePassword() {
