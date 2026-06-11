@@ -4,25 +4,37 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
         <title>Password Generator</title>
     </head>
     <body>
-        <header>
-            <h1 id="heading">Generate a <br />random password</h1>
-            <p id="subheading">Never use an insecure password again.</p>
-        </header>
-        <main>
-            <div id="button-container">
-                <button id="generator-button">Generate passwords</button>
-            </div>
-            <hr />
-            <div id="password-container">
-                <p class="password" id="first-password">firstpassword</p>
-                <p class="password" id="second-password">secondpassword</p>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; ayukyuu 2026.</p>
-        </footer>
+        <div id="main-container">
+            <header>
+                <h1 id="heading">
+                    Generate a <br />
+                    <span class="orange-text">random password</span>
+                </h1>
+                <p id="subheading">Never use an insecure password again.</p>
+            </header>
+            <main>
+                <div id="button-container">
+                    <button id="generator-button">Generate passwords</button>
+                </div>
+                <hr />
+                <div id="password-container">
+                    <p class="password" id="first-password">firstpassword</p>
+                    <p class="password" id="second-password">secondpassword</p>
+                </div>
+                <hr />
+            </main>
+            <footer>
+                <p id="footer-text">&copy; ayukyuu 2026.</p>
+            </footer>
+        </div>
     </body>
 </html>
