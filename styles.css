@@ -58,6 +58,11 @@ body {
     background-color: #d9641e;
     color: #ece2d2;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#generator-button:hover {
+    background-color: #ed7d27;
 }
 
 hr {
